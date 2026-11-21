@@ -104,3 +104,9 @@ Run a self-check on the diff before creating a PR or pushing:
 2. Count effective touched files — exclude the above plus one-to-one test pairs.
 3. If effective LoC > 400 or effective files > 10, stop and propose a split before proceeding.
 4. Report the result inline before continuing.
+
+## Local snapshot — 2026-11-21
+
+This fork preserves the local Devstack integration. Setup and exact dependency revisions are recorded in
+[the snapshot manifest](https://github.com/brobro10000/devstack/tree/chore/devstack-personalized-search-snapshot-20261121/snapshot).
+Credentials, indexed course information, artwork, and learner state are excluded. Original licenses remain in force.
